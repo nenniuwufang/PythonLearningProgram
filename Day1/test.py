@@ -9,9 +9,9 @@ a = "helloworld123"
 
 a = 789
 b = 1.23
-c = b*b
+c = b * b
 # print("{:.2f}".format(c)) # print->1.51
 # print("{1:.1f},{0:.2f}".format(c,b)) # 先输出b 再输出c（按照人为给定的打印顺序）
 # print("{:.1f},{:.2f}".format(c,b))
-print("{:}".format(a)) # print(a)
-print("{:f}".format(a)) # print(float(a))此处的float为数值类型 单精度浮点数
+print("{:}".format(a))  # print(a)
+print("{:f}".format(a))  # print(float(a))此处的float为数值类型 单精度浮点数

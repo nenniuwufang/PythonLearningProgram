@@ -12,6 +12,7 @@ else（没有条件）:
 循环
 """
 
+
 # def main():
 #
 #     word = input("请输入有待输出的数字类型")# 输入有待输出的字符类型
@@ -53,13 +54,14 @@ def main():
             # continue 再进行一次循环
             # break
             continue
-        print(i,end='')
+        print(i, end='')
         # end=''代表的是结尾无空格输出
     else:
         print("运行成功")
 
+
 if __name__ == '__main__':
-    main()#循环练习
+    main()  # 循环练习
 
 # def main():
 #     a = eval(input("请输入a的值"))

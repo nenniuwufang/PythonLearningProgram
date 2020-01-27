@@ -3,7 +3,7 @@
 # 字典的结构一般为{key：value}的形式
 # 调用key会返回value的值 value的值可以限定为默认值
 
-dict = {"name":"小明","age":20,"sex":"male"}
+dict = {"name": "小明", "age": 20, "sex": "male"}
 # 此为字典的赋值方式
 i = dict.get("name")
 # 此为获取字典key后值的形式之一
@@ -18,4 +18,4 @@ j = dict.pop("name")
 为将名为“name”的键与键所对应的值取出并将键所对应的值返回 在将该键与键值删除
 """
 print(j)
-print(dict)# 打印已经更改过后的字典
+print(dict)  # 打印已经更改过后的字典

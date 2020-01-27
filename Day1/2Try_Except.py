@@ -23,7 +23,7 @@ finally:
 try:
     # print(1/1)
     # print(0 / 0)
-    a = 0/0
+    a = 0 / 0
 except ZeroDivisionError:
     print("除0错误！")
 except:

@@ -30,30 +30,33 @@ O:Output 输出
 '''
 import turtle
 
-def koch(size,n):
+
+def koch(size, n):
     if n == 0:
         turtle.fd(size)
     else:
-        for angle in [0,60,-120,60]:
+        for angle in [0, 60, -120, 60]:
             turtle.left(angle)
-            koch(size/3,n-1)
+            koch(size / 3, n - 1)
             # 在此处 函数自己调用了自己 此为函数的复用
             # 同时 函数也需要一个结束的条件来结束函数的自我调用
 
+
 def main():
-# 函数名为main的函数 一般称为主函数
-# 在其他编程语言中 main函数一般缺一不可
-# 且有且仅有一个main()函数
+    # 函数名为main的函数 一般称为主函数
+    # 在其他编程语言中 main函数一般缺一不可
+    # 且有且仅有一个main()函数
     turtle.penup()
-    turtle.goto(-200,100)
+    turtle.goto(-200, 100)
     turtle.pendown()
     turtle.pensize(5)
     turtle.pencolor("pink")
     level = 3
     for i in range(3):
-        koch(400,3)
+        koch(400, 3)
         turtle.right(120)
     turtle.hideturtle()
+
 
 if __name__ == '__main__':
     main()
