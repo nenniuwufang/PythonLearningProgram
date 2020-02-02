@@ -30,6 +30,6 @@ print(hellopython[0:5])  # hello
 # 进阶
 # 对于字符串进行逐个输出
 
-for i in hellopython:
+for i in hellopython:  # hellopython是一个变量
     print(i, end='')  # 对于hellopython变量进行逐个输出
     # end=''表示输出的每一个字符后不换行
